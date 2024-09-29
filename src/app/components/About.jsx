@@ -7,7 +7,7 @@ const About = () => {
         Who am I?
       </h1>
       <div className="md:flex justify-between">
-        <div className="w-[500px]">
+        <div className="md:w-[300px] lg:w-[500px]">
           <p className="text-gray-300">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
             assumenda ipsa illum nostrum dignissimos repudiandae esse eveniet
