@@ -10,39 +10,61 @@ const About = () => {
       <div className="md:flex justify-between">
         <div className="max-w-[500px] ">
           <p className="mb-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-            assumenda ipsa illum nostrum dignissimos repudiandae esse eveniet
-            iste molestiae quis similique accusamus dolorem cupiditate, nobis
-            sit? Doloribus inventore id eveniet?
+            I am a versatile{" "}
+            <span className="text-white bg-gray-600 rounded-md px-2">
+              Full Stack Developer
+            </span>{" "}
+            with a passion for creating dynamic and user-friendly web
+            applications. With expertise in both{" "}
+            <span className="text-white bg-gray-600 rounded-md px-2">
+              frontend and backend development
+            </span>
+            , I specialize in the{" "}
+            <span className="text-white bg-gray-600 rounded-md px-2">MERN</span>{" "}
+            stack(MongoDB, Express.js, React, Node.js) and have extensive
+            experience building modern, scalable applications using{" "}
+            <span className="text-white bg-gray-600 rounded-md px-2">
+              Next.js
+            </span>{" "}
+            and various UI libraries. I take pride in delivering efficient,
+            clean code and intuitive interfaces that simplify complex processes.
+            Whether working on the client or server side, I am committed to
+            crafting seamless digital experiences from start to finish.
           </p>
 
           <Button className="font-medium">Download CV</Button>
         </div>
 
         <div className="hidden lg:flex mt-6 md:mt-0">
-          <div>
+          <div className="flex space-x-6">
             <div>
-              <h1 className="text-white">
-                Name: <span className="text-[#7A7A7A]">Ritick Lath</span>
-              </h1>
-            </div>
+              <div>
+                <h1 className="text-white">
+                  Name: <span className="text-[#7A7A7A]">Ritick Lath</span>
+                </h1>
+              </div>
 
-            <div>
-              <h1 className="text-white">
-                Education:{" "}
-                <span className="text-[#7A7A7A]">Bachelors of Technology</span>
-              </h1>
+              <div>
+                <h1 className="text-white">
+                  Education:{" "}
+                  <span className="text-[#7A7A7A]">
+                    Bachelors of Technology
+                  </span>
+                </h1>
+              </div>
             </div>
             <div>
-              <h1 className="text-white">
-                Profession:{" "}
-                <span className="text-[#7A7A7A]">Software Developer</span>
-              </h1>
-            </div>
-            <div>
-              <h1 className="text-white">
-                Location: <span className="text-[#7A7A7A]">India</span>
-              </h1>
+              <div>
+                <h1 className="text-white">
+                  Profession:{" "}
+                  <span className="text-[#7A7A7A]">Software Developer</span>
+                </h1>
+              </div>
+              <div>
+                <h1 className="text-white">
+                  Location: <span className="text-[#7A7A7A]">India</span>
+                </h1>
+              </div>
             </div>
           </div>
         </div>
