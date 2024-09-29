@@ -4,6 +4,7 @@ import { BackgroundBeams } from "./components/ui/background-beams";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 export default function BackgroundBeamsDemo() {
   return (
@@ -13,6 +14,8 @@ export default function BackgroundBeamsDemo() {
         <HeroSection />
         {/* ABOUT SECTION */}
         <About />
+        {/* SKILLS */}
+        <Skills />
       </div>
       <BackgroundBeams />
     </div>

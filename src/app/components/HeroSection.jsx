@@ -82,7 +82,7 @@ const HeroSection = () => {
           width={400}
         />
         <div className="flex text-white lg:hidden md:mt-[260px] mt-[167px]">
-          <div>
+          <div className="text-xs sm:text-sm md:text-lg">
             <h1>Name: Ritick Lath</h1>
             <h1>Location: New Delhi</h1>
           </div>

@@ -4,7 +4,7 @@ import { Button } from "./ui/moving-border";
 const About = () => {
   return (
     <div className="my-10 lg:mt-20">
-      <h1 className="text-xl sm:text-2xl md:text-3xl text-[#22C55E] font-semibold mb-2 lg:mb-4">
+      <h1 className="text-xl sm:text-2xl md:text-3xl text-[#22C55E] font-bold mb-2 lg:mb-4">
         Who am I?
       </h1>
       <div className="md:flex justify-between">
