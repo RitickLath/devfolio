@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="mt-20">
-      <h1 className="text-xl sm:text-2xl md:text-3xl text-[#22C55E] font-semibold mb-4">
+      <h1 className="text-xl sm:text-2xl md:text-3xl text-[#22C55E] font-semibold mb-2 lg:mb-4">
         Who am I?
       </h1>
       <div className="md:flex justify-between">
         <div className="md:w-[300px] lg:w-[500px]">
-          <p className="text-gray-300">
+          <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
             assumenda ipsa illum nostrum dignissimos repudiandae esse eveniet
             iste molestiae quis similique accusamus dolorem cupiditate, nobis

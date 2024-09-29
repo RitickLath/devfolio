@@ -1,19 +1,42 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
 import profilePic from "@/app/components/profile-pic.webp";
 
 const HeroSection = () => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [
+        "Full Stack Developer.",
+        "Frontend Developer.",
+        "Backend Developer.",
+      ],
+      typeSpeed: 120, // typing speed in milliseconds
+      backSpeed: 120, // backspacing speed in milliseconds
+      loop: true, // loop the animation
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className="md:flex md:justify-between">
       {/* Text Section */}
       <div>
         <div className="mt-[100px]">
           <h1 className="text-xl lg:text-2xl font-medium">Hi There!</h1>
+
           <h1 className="text-3xl lg:text-5xl font-bold text-white">
-            I am Full Stack Developer|
+            I am <span ref={el} />
           </h1>
           <h1 className="text-2xl lg:text-3xl font-semibold lg:pt-2">
-            I make the complex Simple
+            I make the complex Simple.
           </h1>
           <div className="mt-6 lg:mt-12">
             <button className="bg-[#22C55E] text-white py-2 px-4 rounded-md">
