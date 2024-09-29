@@ -7,15 +7,15 @@ const HeroSection = () => {
     <div className="md:flex md:justify-between">
       {/* Text Section */}
       <div>
-        <div className="text-center sm:text-left mt-[100px]">
+        <div className="mt-[100px]">
           <h1 className="text-xl lg:text-2xl font-medium">Hi There!</h1>
           <h1 className="text-3xl lg:text-5xl font-bold text-white">
             I am Full Stack Developer|
           </h1>
-          <h1 className="text-2xl lg:text-3xl font-semibold pt-2">
+          <h1 className="text-2xl lg:text-3xl font-semibold lg:pt-2">
             I make the complex Simple
           </h1>
-          <div className="mt-12">
+          <div className="mt-6 lg:mt-12">
             <button className="bg-[#22C55E] text-white py-2 px-4 rounded-md">
               Contact me
             </button>
@@ -51,7 +51,7 @@ const HeroSection = () => {
       </div>
 
       {/* Image Section */}
-      <div className="flex md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] justify-center sm:justify-normal mt-[20px] lg:mt-[100px]">
+      <div className="hidden sm:flex md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] justify-center sm:justify-normal mt-[20px] lg:mt-[100px]">
         <Image src={profilePic} alt="Profile Pic" height={400} width={400} />
       </div>
     </div>
