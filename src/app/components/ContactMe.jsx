@@ -10,7 +10,7 @@ const ContactMe = () => {
   // Function to handle WhatsApp redirect with pre-filled message
   const handleContact = () => {
     const preFilledMessage = `Hi ${name},\nMessage: ${message}`;
-    const whatsappURL = `https://wa.me/${6209847887}?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/${916209847887}?text=${encodeURIComponent(
       preFilledMessage
     )}`;
     window.open(whatsappURL, "_blank");

@@ -33,7 +33,7 @@ const Footer = () => {
             <FaLinkedin className="text-xl" />
           </a>
           <a
-            href="https://wa.me/6209847887" // Replace with your WhatsApp number (in international format)
+            href="https://wa.me/916209847887" // Replace with your WhatsApp number (in international format)
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#22C55E] p-2 rounded-md"
