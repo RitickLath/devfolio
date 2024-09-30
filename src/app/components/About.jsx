@@ -1,10 +1,20 @@
 import React from "react";
 import { Button } from "./ui/moving-border";
 
+import { Merriweather } from "next/font/google";
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700", "900"], // Specify weights
+  style: ["normal", "italic"], // Include both normal and italic styles
+  subsets: ["latin"], // Use the 'latin' subset
+});
+
 const About = () => {
   return (
     <div className="my-10 lg:mt-20">
-      <h1 className="text-xl sm:text-2xl md:text-3xl text-[#22C55E] font-bold mb-2 lg:mb-4">
+      <h1
+        className={`${merriweather.className} text-xl sm:text-2xl md:text-3xl text-[#22C55E] font-bold mb-2 lg:mb-4`}
+      >
         Who am I?
       </h1>
       <div className="md:flex justify-between">

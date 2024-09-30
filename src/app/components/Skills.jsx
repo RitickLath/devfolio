@@ -22,6 +22,13 @@ import { FaJava } from "react-icons/fa";
 import { LuDatabaseBackup } from "react-icons/lu";
 
 import { MdBuild } from "react-icons/md"; // Build icon
+import { Merriweather } from "next/font/google";
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700", "900"], // Specify weights
+  style: ["normal", "italic"], // Include both normal and italic styles
+  subsets: ["latin"], // Use the 'latin' subset
+});
 
 const frontendSkills = [
   {
@@ -139,13 +146,15 @@ const SkillCategory = ({ title, skills }) => (
 const Skills = () => {
   return (
     <div>
-      <h1 className="text-2xl md:text-3xl text-[#22C55E] font-bold mb-2 lg:mb-4">
+      <h1
+        className={`${merriweather.className} text-2xl md:text-3xl text-[#22C55E] font-bold`}
+      >
         Tools and Technologies
       </h1>
       <hr className="border-[#1D1D1D] my-3" />
       <SkillCategory title="Frontend Technologies" skills={frontendSkills} />
       <SkillCategory title="Backend Technologies" skills={backendSkills} />
-      <SkillCategory title="Databases AND ORM" skills={databaseSkills} />
+      <SkillCategory title="Databases & ORM" skills={databaseSkills} />
       <SkillCategory
         title="Framework & Libraries"
         skills={frameworkAndLibrariesSkills}

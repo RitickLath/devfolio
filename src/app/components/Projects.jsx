@@ -1,6 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
+import { Merriweather } from "next/font/google";
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700", "900"], // Specify weights
+  style: ["normal", "italic"], // Include both normal and italic styles
+  subsets: ["latin"], // Use the 'latin' subset
+});
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -19,7 +26,9 @@ const Projects = () => {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <h1 className="mt-12 text-2xl md:text-3xl text-[#22C55E] font-bold">
+        <h1
+          className={`${merriweather.className} mt-12 text-2xl md:text-3xl text-[#22C55E] font-bold`}
+        >
           Projects
         </h1>
         <button

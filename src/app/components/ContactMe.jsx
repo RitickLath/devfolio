@@ -1,4 +1,11 @@
 import React, { useState } from "react";
+import { Merriweather } from "next/font/google";
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700", "900"], // Specify weights
+  style: ["normal", "italic"], // Include both normal and italic styles
+  subsets: ["latin"], // Use the 'latin' subset
+});
 
 const ContactMe = () => {
   const [name, setName] = useState("");
@@ -18,7 +25,9 @@ const ContactMe = () => {
 
   return (
     <div className="max-w-[700px] mt-12">
-      <h1 className="text-2xl md:text-3xl text-[#22C55E] font-bold">
+      <h1
+        className={`${merriweather.className} text-2xl md:text-3xl text-[#22C55E] font-bold`}
+      >
         Contact Me
       </h1>
       <hr className="border-[#1D1D1D] my-3" />
