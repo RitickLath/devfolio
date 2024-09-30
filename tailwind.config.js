@@ -37,7 +37,7 @@ function flattenColors(colors) {
 
 function addVariablesForColors({ addBase, theme }) {
   const colors = flattenColors(theme("colors"));
-  
+
   const newVars = Object.fromEntries(
     Object.entries(colors).map(([key, val]) => [`--${key}`, val])
   );

@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { BackgroundBeams } from "./components/ui/background-beams";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,7 +24,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div>{children}
+          <BackgroundBeams/>
+        </div>
       </body>
     </html>
   );

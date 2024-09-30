@@ -142,6 +142,7 @@ const Skills = () => {
       <h1 className="text-2xl md:text-3xl text-[#22C55E] font-bold mb-2 lg:mb-4">
         Tools and Technologies
       </h1>
+      <hr className="border-[#1D1D1D] my-3" />
       <SkillCategory title="Frontend Technologies" skills={frontendSkills} />
       <SkillCategory title="Backend Technologies" skills={backendSkills} />
       <SkillCategory title="Databases AND ORM" skills={databaseSkills} />
