@@ -32,12 +32,13 @@ const Projects = () => {
     />,
 
     <ProjectCard
-      title="Gipht Clone"
+      title="Giphy Clone"
       description="This Giphy Clone is a responsive web app built with React, offering users the ability to browse and search for GIFs, Stickers, and Clips from the Giphy API. It features an optimized search bar with debouncing for improved performance, and users can 'like' their favorite GIFs to save them in a Favorites section. Styled with Tailwind CSS, the app is fully responsive and deployed on Netlify for easy access"
       liveLink="https://giphy1.netlify.app/Science"
       github="https://github.com/RitickLath/Gipgy-Clone"
       techList={[
         "React",
+        "JavaScript",
         "Tailwind CSS",
         "Giphy API",
         "Debouncing",
@@ -45,10 +46,23 @@ const Projects = () => {
       ]}
       key={2}
     />,
-    <ProjectCard key={3} />,
-    <ProjectCard key={4} />,
-    <ProjectCard key={5} />,
-    <ProjectCard key={6} />,
+    <ProjectCard
+      title="Advance Netflix GPT"
+      description="**Netflix GPT** is a React-based web application that replicates the Netflix experience, featuring seamless navigation and a sleek user interface. Utilizing the **TMDB API**, it fetches movie data and trailers, while integrating **Firebase Authentication** for secure user access. The standout feature is the **OpenAI GPT** integration, which provides personalized movie recommendations based on user prompts. The app is fully responsive, built with **Tailwind CSS**, and achieves exceptional performance with a Lighthouse score of 95+. This project exemplifies modern web development practices and delivers an engaging user experience."
+      liveLink="https://netflixgpt-3dea2.firebaseapp.com/"
+      github="https://github.com/RitickLath/Netflix_GPT"
+      techList={[
+        "React",
+        "TMDB API",
+        "Firebase",
+        "OpenAI GPT",
+        "React Router",
+        "Tailwind CSS",
+        "JavaScript",
+        "Responsiveness",
+      ]}
+      key={3}
+    />,
   ];
 
   const displayedProjects = showAll ? projects : projects.slice(0, 2);
