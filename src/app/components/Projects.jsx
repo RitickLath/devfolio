@@ -34,15 +34,6 @@ const Projects = () => {
       {displayedProjects.map((project, index) => (
         <React.Fragment key={index}>{project}</React.Fragment>
       ))}
-
-      <div className="mt-4 flex">
-        <button
-          onClick={() => setShowAll(!showAll)}
-          className="text-[#22C55E] font-semibold"
-        >
-          {showAll ? "Show Less" : "Show More"}
-        </button>
-      </div>
     </div>
   );
 };
