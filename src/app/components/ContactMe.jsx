@@ -26,7 +26,7 @@ const ContactMe = () => {
   return (
     <div className="max-w-[700px] mt-12">
       <h1
-        className={`${merriweather.className} text-2xl md:text-3xl text-[#22C55E] font-bold`}
+        className={`${merriweather.className} text-2xl md:text-3xl text-white font-bold`}
       >
         Contact Me
       </h1>

@@ -147,7 +147,7 @@ const Skills = () => {
   return (
     <div>
       <h1
-        className={`${merriweather.className} text-2xl md:text-3xl text-[#22C55E] font-bold`}
+        className={`${merriweather.className} text-2xl md:text-3xl text-white font-bold`}
       >
         Tools and Technologies
       </h1>

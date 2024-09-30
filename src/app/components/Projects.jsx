@@ -27,7 +27,7 @@ const Projects = () => {
     <div>
       <div className="flex justify-between items-center">
         <h1
-          className={`${merriweather.className} mt-12 text-2xl md:text-3xl text-[#22C55E] font-bold`}
+          className={`${merriweather.className} mt-12 text-2xl md:text-3xl text-white font-bold`}
         >
           Projects
         </h1>
