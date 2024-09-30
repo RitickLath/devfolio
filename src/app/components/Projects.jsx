@@ -30,7 +30,21 @@ const Projects = () => {
       ]}
       key={1}
     />,
-    <ProjectCard key={2} />,
+
+    <ProjectCard
+      title="Gipht Clone"
+      description="This Giphy Clone is a responsive web app built with React, offering users the ability to browse and search for GIFs, Stickers, and Clips from the Giphy API. It features an optimized search bar with debouncing for improved performance, and users can 'like' their favorite GIFs to save them in a Favorites section. Styled with Tailwind CSS, the app is fully responsive and deployed on Netlify for easy access"
+      liveLink="https://giphy1.netlify.app/Science"
+      github="https://github.com/RitickLath/Gipgy-Clone"
+      techList={[
+        "React",
+        "Tailwind CSS",
+        "Giphy API",
+        "Debouncing",
+        "Responsiveness",
+      ]}
+      key={2}
+    />,
     <ProjectCard key={3} />,
     <ProjectCard key={4} />,
     <ProjectCard key={5} />,
