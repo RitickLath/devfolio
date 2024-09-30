@@ -7,7 +7,7 @@ const Footer = () => {
       <hr className="border-[#1D1D1D] border-dotted my-3" />
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Social Icons */}
-        <div className="flex space-x-2 lg:space-x-3">
+        <div className="flex space-x-1 lg:space-x-3">
           <a
             href="https://github.com/RitickLath"
             target="_blank"
@@ -44,7 +44,7 @@ const Footer = () => {
 
         {/* Developer Text */}
         <div>
-          <p className="text-white text-sm">
+          <p className="text-white text-xs">
             Developed by{" "}
             <span className="text-[#22C55E] font-semibold">Ritick Lath</span>
           </p>
