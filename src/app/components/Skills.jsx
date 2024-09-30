@@ -122,7 +122,7 @@ const SkillItem = ({ icon, name, iconColor }) => (
 
 const SkillCategory = ({ title, skills }) => (
   <div className="mt-5 md:mt-8">
-    <h1 className="text-xl mb-3 text-[#007ACC]">{title}</h1>
+    <h1 className="text-xl mb-3 text-[#3B82EE]">{title}</h1>
     <div className="max-w-[400px] lg:max-w-[700px] flex flex-wrap text-white ml-3 mt-2">
       {skills.map((skill, index) => (
         <SkillItem
