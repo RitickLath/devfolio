@@ -13,7 +13,23 @@ const Projects = () => {
   const [showAll, setShowAll] = useState(false);
 
   const projects = [
-    <ProjectCard key={1} />,
+    <ProjectCard
+      title="Imaginary"
+      description="Imaginary is an advanced image editing application built with Next.js, offering a wide range of AI-powered image transformation features. Users can enhance images, sharpen details, remove backgrounds, and utilize AI to restore, fill, or replace parts of an image. With secure authentication powered by Clerk, all editing features are protected for logged-in users. The app provides 15 free image edits, with additional edits available through a credit-based system. Styled with Tailwind CSS and deployed on Vercel, Imaginary ensures a smooth, fast, and scalable user experience."
+      liveLink="https://imaginary1.netlify.app/"
+      github="https://github.com/RitickLath/Imaginary"
+      techList={[
+        "Next.Js",
+        "PostgreSQL",
+        "Prisma ORM",
+        "Cloudinary",
+        "Clerk",
+        "Recoil",
+        "Tailwind",
+        "Server Action",
+      ]}
+      key={1}
+    />,
     <ProjectCard key={2} />,
     <ProjectCard key={3} />,
     <ProjectCard key={4} />,
