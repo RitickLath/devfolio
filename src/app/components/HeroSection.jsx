@@ -30,7 +30,7 @@ const HeroSection = () => {
     <div className="lg:flex lg:justify-between">
       {/* Text Section */}
       <div>
-        <div className="mt-[30px]">
+        <div className="mt-[25px]">
           <h1 className="text-xl lg:text-2xl font-medium">Hi There!</h1>
 
           <h1 className="text-3xl lg:text-5xl font-bold text-white">

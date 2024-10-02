@@ -18,11 +18,11 @@ export default function BackgroundBeamsDemo() {
   return (
     <div className="w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
       <div className="w-full z-10 min-h-screen px-6 md:px-24 lg:px-32 text-[#7A7A7A]">
-        <h1
+        {/* <h1
           className={`${qwitcherGrypen.className} mt-4 text-3xl md:text-5xl text-white`}
         >
           Ritick Lath
-        </h1>
+        </h1> */}
         {/* HERO SECTION */}
         <HeroSection />
         {/* ABOUT SECTION */}
