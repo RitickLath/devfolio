@@ -30,19 +30,25 @@ const Projects = () => {
       ]}
       key={1}
     />,
-
     <ProjectCard
-      title="Giphy Clone"
-      description="This Giphy Clone is a responsive web app built with React, offering users the ability to browse and search for GIFs, Stickers, and Clips from the Giphy API. It features an optimized search bar with debouncing for improved performance, and users can 'like' their favorite GIFs to save them in a Favorites section. Styled with Tailwind CSS, the app is fully responsive and deployed on Netlify for easy access"
-      liveLink="https://giphy1.netlify.app/Science"
-      github="https://github.com/RitickLath/Gipgy-Clone"
+      title="Edubridge"
+      description="EduBridge is a MERN stack-based online learning platform that enhances the educational experience for students and instructors. It features secure user authentication via JWT and OTP verification, allowing users to sign up and log in safely. Instructors can create and manage courses, while students can browse and view detailed course information. The platform includes a contact form for user inquiries and employs Zod for input validation."
+      liveLink="https://netflixgpt-3dea2.firebaseapp.com/"
+      github="https://edtech-portal.vercel.app/"
       techList={[
         "React",
-        "JavaScript",
+        "React Router",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT (JSON Web Tokens)",
+        "Nodemailer",
+        "Zod",
         "Tailwind CSS",
-        "Giphy API",
-        "Debouncing",
-        "Responsiveness",
+        "Vercel",
+        "Render",
+        "Cloudinary",
       ]}
       key={2}
     />,
@@ -64,24 +70,17 @@ const Projects = () => {
       key={3}
     />,
     <ProjectCard
-      title="Edubridge"
-      description="EduBridge is a MERN stack-based online learning platform that enhances the educational experience for students and instructors. It features secure user authentication via JWT and OTP verification, allowing users to sign up and log in safely. Instructors can create and manage courses, while students can browse and view detailed course information. The platform includes a contact form for user inquiries and employs Zod for input validation."
-      liveLink="https://netflixgpt-3dea2.firebaseapp.com/"
-      github="https://edtech-portal.vercel.app/"
+      title="Giphy Clone"
+      description="This Giphy Clone is a responsive web app built with React, offering users the ability to browse and search for GIFs, Stickers, and Clips from the Giphy API. It features an optimized search bar with debouncing for improved performance, and users can 'like' their favorite GIFs to save them in a Favorites section. Styled with Tailwind CSS, the app is fully responsive and deployed on Netlify for easy access"
+      liveLink="https://giphy1.netlify.app/Science"
+      github="https://github.com/RitickLath/Gipgy-Clone"
       techList={[
         "React",
-        "React Router",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Mongoose",
-        "JWT (JSON Web Tokens)",
-        "Nodemailer",
-        "Zod",
+        "JavaScript",
         "Tailwind CSS",
-        "Vercel",
-        "Render",
-        "Cloudinary",
+        "Giphy API",
+        "Debouncing",
+        "Responsiveness",
       ]}
       key={4}
     />,
