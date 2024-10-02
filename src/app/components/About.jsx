@@ -42,7 +42,15 @@ const About = () => {
             crafting seamless digital experiences from start to finish.
           </p>
 
-          <Button className="font-medium">Download CV</Button>
+          <Button className="font-medium">
+            <a
+              href="https://drive.google.com/file/d/1yeRkSje2T9AsjvH2VmKHxfKptqdpV4L2/view?usp=drive_link"
+              target="_blank" // Optional: Opens in a new tab
+              rel="noopener noreferrer" // Security best practice when using target="_blank"
+            >
+              Download CV
+            </a>
+          </Button>
         </div>
 
         <div className="hidden lg:flex mt-6 md:mt-0">
