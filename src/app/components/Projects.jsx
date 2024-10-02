@@ -70,6 +70,20 @@ const Projects = () => {
       key={3}
     />,
     <ProjectCard
+      title="Airbnb Clone"
+      description="This full-stack Airbnb clone is built with Next.js, Prisma, and Tailwind CSS. It features secure user authentication, property management, and booking functionality. Users can easily list their properties, manage bookings, and leave reviews for their stays. The application also includes a powerful search and filtering system to help users find the perfect accommodation."
+      liveLink="https://aairbnb-seven.vercel.app/"
+      github="https://github.com/RitickLath/aairbnb"
+      techList={[
+        "Next.js",
+        "Prisma",
+        "Tailwind CSS",
+        "NextAuth.js",
+        "PostgreSQL",
+      ]}
+      key={4}
+    />,
+    <ProjectCard
       title="Giphy Clone"
       description="This Giphy Clone is a responsive web app built with React, offering users the ability to browse and search for GIFs, Stickers, and Clips from the Giphy API. It features an optimized search bar with debouncing for improved performance, and users can 'like' their favorite GIFs to save them in a Favorites section. Styled with Tailwind CSS, the app is fully responsive and deployed on Netlify for easy access"
       liveLink="https://giphy1.netlify.app/Science"
@@ -82,7 +96,7 @@ const Projects = () => {
         "Debouncing",
         "Responsiveness",
       ]}
-      key={4}
+      key={5}
     />,
   ];
 
