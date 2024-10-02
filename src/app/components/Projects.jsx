@@ -63,6 +63,28 @@ const Projects = () => {
       ]}
       key={3}
     />,
+    <ProjectCard
+      title="Edubridge"
+      description="EduBridge is a MERN stack-based online learning platform that enhances the educational experience for students and instructors. It features secure user authentication via JWT and OTP verification, allowing users to sign up and log in safely. Instructors can create and manage courses, while students can browse and view detailed course information. The platform includes a contact form for user inquiries and employs Zod for input validation."
+      liveLink="https://netflixgpt-3dea2.firebaseapp.com/"
+      github="https://edtech-portal.vercel.app/"
+      techList={[
+        "React",
+        "React Router",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT (JSON Web Tokens)",
+        "Nodemailer",
+        "Zod",
+        "Tailwind CSS",
+        "Vercel",
+        "Render",
+        "Cloudinary",
+      ]}
+      key={4}
+    />,
   ];
 
   const displayedProjects = showAll ? projects : projects.slice(0, 2);
