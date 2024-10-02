@@ -44,7 +44,7 @@ const About = () => {
 
           <Button className="font-medium">
             <a
-              href="https://drive.google.com/file/d/1yeRkSje2T9AsjvH2VmKHxfKptqdpV4L2/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1yeRkSje2T9AsjvH2VmKHxfKptqdpV4L2/view"
               target="_blank" // Optional: Opens in a new tab
               rel="noopener noreferrer" // Security best practice when using target="_blank"
             >
